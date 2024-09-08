@@ -1,0 +1,30 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "️": true
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+  "workbench.colorTheme": "Monokai",
+  "workbench.colorCustomizations": {},
+  "materialTheme.accent": "Yellow",
+  "workbench.startupEditor": "none",
+  "material-icon-theme.files.color": "#90a4ae",
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontWeight": "200",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": false
+}
