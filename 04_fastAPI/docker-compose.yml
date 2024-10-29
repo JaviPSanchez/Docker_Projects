@@ -1,0 +1,12 @@
+services:
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - BASE_IMAGE=tiangolo/uvicorn-gunicorn-fastapi:python3.7
+    image: fastapi
+    ports:
+      - "8001:80" # Map port 8000 on your host to port 80 in the container
+    volumes:
+      - ./app:/app # Mount the app directory
